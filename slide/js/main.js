@@ -201,7 +201,7 @@ function onBridgeReady() {
     var mainTitle="低俗台山帮",
         mainDesc="只是用于测试",
         mainURL="kuangwk.github.io/taishanbang/slide",
-        mainImgUrl= "kuangwk.github.io/taishanbang/slide/avatar2.png";
+        mainImgUrl= "kuangwk.github.io/taishanbang/slide/img/avatar2.png";
 
     //转发朋友圈
     WeixinJSBridge.on("menu:share:timeline", function(e) {
