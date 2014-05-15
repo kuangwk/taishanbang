@@ -1,3 +1,5 @@
+title = '低俗台山帮'
+
 sec1 = {
   title: 'sec1_title.gif',
   avatar: 'avatar2.png'

@@ -1,5 +1,7 @@
 ;(function(){
 
+  document.title = title
+
   // sec1 
   $('#sec1-avatar').css({backgroundImage: "url('./img/" + sec1.avatar + "')"})
   $('#sec1-title').css({backgroundImage: "url('./img/" + sec1.title + "')"})
