@@ -198,10 +198,10 @@ function animatePage( newPage ){
 // 视差
 var scene = document.getElementById('scene');
 function onBridgeReady() {
-    var mainTitle="嘉讲堂第2季全国巡回演讲邀请函",
-        mainDesc="嘉讲堂第2季全国巡回演讲",
-        mainURL="http://dev.hotkeypower.com/lfhtml/jjt/index.html",
-        mainImgUrl= "http://dev.hotkeypower.com/lfhtml/jjt/img/jia.jpg";
+    var mainTitle="低俗台山帮",
+        mainDesc="只是用于测试",
+        mainURL="kuangwk.github.io/taishanbang/slide",
+        mainImgUrl= "kuangwk.github.io/taishanbang/slide/avatar2.png";
 
     //转发朋友圈
     WeixinJSBridge.on("menu:share:timeline", function(e) {
