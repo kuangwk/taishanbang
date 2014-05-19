@@ -10,9 +10,9 @@ function IsPC()
 }
 
 var jumpPc = IsPC();
-if(jumpPc!=false){
-//window.location.href = "http://up.qq.com";
-}
+// if(jumpPc!=false){
+
+// }
 
 document.body.addEventListener('touchstart', function (e) {
     //console.log("target:"+e.target.className);
@@ -200,8 +200,8 @@ var scene = document.getElementById('scene');
 function onBridgeReady() {
     var mainTitle="人文与法学学院双代会邀请函",
         mainDesc="人文与法学学院双代会邀请函",
-        mainURL="",
-        mainImgUrl= "http://dev.hotkeypower.com/lfhtml/jjt/img/jia.jpg";
+        mainURL="http://kuangwk.github.io/taishanbang/rwfx/",
+        mainImgUrl= "http://kuangwk.github.io/taishanbang/rwfx/img/logo.png";
 
     //转发朋友圈
     WeixinJSBridge.on("menu:share:timeline", function(e) {
@@ -243,7 +243,7 @@ function onBridgeReady() {
 };
 //执行
 
-if (WeixinJSBridge) {
+if (window.WeixinJSBridge) {
     onBridgeReady();
 } else {
     document.addEventListener('WeixinJSBridgeReady', function() {

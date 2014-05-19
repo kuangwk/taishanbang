@@ -1056,4 +1056,17 @@ section{display: block;}
 
 #sec8_avatar {
 	background: url('../img/sec8_avatar.jpg') center center no-repeat;
+	top: 23%;
+}
+
+#bottom {
+	position: absolute;
+	bottom: 2%;
+	width: 100%;
+}
+#bottom p{
+	text-align: center;
+	color: #EA5404;
+	padding-right: 5%;
+	font-weight: bold;
 }
