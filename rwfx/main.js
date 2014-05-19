@@ -201,7 +201,7 @@ function onBridgeReady() {
     var mainTitle="人文与法学学院双代会邀请函",
         mainDesc="人文与法学学院双代会邀请函",
         mainURL="http://kuangwk.github.io/taishanbang/rwfx/",
-        mainImgUrl= "http://kuangwk.github.io/taishanbang/rwfx/img/logo.png";
+        mainImgUrl= "http://kuangwk.github.io/taishanbang/rwfx/img/share.png";
 
     //转发朋友圈
     WeixinJSBridge.on("menu:share:timeline", function(e) {

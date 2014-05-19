@@ -1070,3 +1070,7 @@ section{display: block;}
 	padding-right: 5%;
 	font-weight: bold;
 }
+
+.course .tr {
+	width: 50%;
+}
