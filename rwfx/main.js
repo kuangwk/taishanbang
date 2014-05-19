@@ -242,7 +242,11 @@ function onBridgeReady() {
     });
 };
 //执行
-document.addEventListener('WeixinJSBridgeReady', function() {
-    onBridgeReady();
-});
 
+if (WeixinJSBridge) {
+    onBridgeReady();
+} else {
+    document.addEventListener('WeixinJSBridgeReady', function() {
+        onBridgeReady();
+    });
+}
