@@ -3,6 +3,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 div.wrapper {
@@ -11,6 +12,7 @@ div.wrapper {
   background: #c9151e;
   color: #fff;
   font-size: 12px;
+  overflow: hidden;
 }
 
 div.cycle {
@@ -49,8 +51,10 @@ div.small-cy {
 
 div.middle-sec {
   position: absolute;
+  left: 50%;
+  margin-left: -150px;
+  width: 300px;
   top: 40%;
-  width: 100%;
 }
 
 div.left-arr {
@@ -72,7 +76,7 @@ div.middle-sec h2 {
 
 div.right-arr {
   position: absolute;
-  right: 30px;
+  right: 10px;
   top: 40px;
   width: 48px;
   height: 122px;
@@ -86,6 +90,6 @@ div.bottom-sec {
   width: 100%;
   top: 64%;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
 }
 
